@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Tech - Leading Computer & laptop Gadget</title>
+    <link rel="icon" type="image/x-icon" href="https://www.startech.com.bd/image/catalog/logo.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="styles/bootstrap.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7bb53d793d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- Header Section Start  -->
+
+    <header class="header-section">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="search">
+                    <input type="search" class="search-bar" placeholder="Search">
+                </div>
+                <div class="offers">
+                    <div class="icon">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+                    <div class="text">
+                        <h5>Offers</h5>
+                        <p>Latest Offers</p>
+                    </div>
+                </div>
+                <div class="fest">
+                    <div class="icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div class="text">
+                        <h5>Gadget Fest</h5>
+                        <p>Special Deals</p>
+                    </div>
+                </div>
+                <div class="account">
+                    <div class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="text">
+                        <h5>Account</h5>
+                        <p>Register or Login</p>
+                    </div>
+                </div>
+                <div class="btn">
+                    <a>PC Builder</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header Section End -->
+
+
+
+    <!-- Nav Section Start -->
+
+    <div class="menu-section">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>Desktop</li>
+                    <li>Laptop</li>
+                    <li>Component</li>
+                    <li>Monitor</li>
+                    <li>UPS</li>
+                    <li>Phone</li>
+                    <li>Tablet</li>
+                    <li>Office Equipment</li>
+                    <li>Camera</li>
+                    <li>Security</li>
+                    <li>Networking</li>
+                    <li>Software</li>
+                    <li>Server & Storage</li>
+                    <li>Accessories</li>
+                    <li>Gadget</li>
+                    <li>Gaming</li>
+                    <li>TV</li>
+                    <li>AC</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Nav Section End -->
+
+
+
+    <!-- Banner Section Start -->
+
+    <section class="banner-section">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-left">
+                    <img class="mySlides" src="https://www.startech.com.bd/image/cache/catalog/home/banner/gadget-fest-2023-17-982x500.webp" alt="">
+                    <img class="mySlides" src="https://www.startech.com.bd/image/cache/catalog/home/max-green-laptop-bag-982x500.png" alt="">
+                </div>
+                <div class="banner-right">
+                    <div class="banner-right-top">
+                        <h5>Compare Product</h5>
+                        <p>Chose Two Products to Compare</p>
+                        <input type="search" placeholder="Search and Select Product">
+                        <input type="search" placeholder="Search and Select Product">
+                        <a href="#">View Comparison</a>
+                    </div>
+                    <div class="banner-right-bottom">
+                        <img src="https://www.startech.com.bd/image/catalog/home/banner/small/dhaka-express-delivery.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Section End -->
+
+
+
+    <!-- Marquee Section Start -->
+    <section class="marquee-section bg">
+        <div class="container">
+            <div class="marquee-content">
+                <marquee behavior="" direction="">17th January Tuesday, our all branches are open except Multiplan Branch. Additionally our online activities will remain open and operational.</marquee>
+            </div>
+        </div>
+    </section>
+    <!-- Marquee Section End -->
+
+
+
+
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+
+
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.bg{
+    background-color: #F2F4F8;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+/* Header Section Start  */
+.header-section{
+    background-color: #081621;
+    padding: 15px 0;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content img{
+    height: 52px;
+}
+.header-content .offers, .fest, .account{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header-content .search .search-bar{
+    width: 550px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.header-content h5{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.header-content p{
+    color: rgba(255,255,255,.5);
+    font-size: 11px;
+}
+.header-content i{
+    color: #EF4A23;
+}
+.header-content .btn a{
+    background-color: #279ffa;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Header Section End  */
+
+
+
+/* Nav section Start */
+.menu-section{
+    padding: 15px 0;
+    box-shadow: 0px 15px 10px -20px rgb(100, 99, 99);
+}
+.menu-section ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu-section ul li{
+    list-style: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Nav section End */
+
+
+
+/* Banner Section Start */
+
+.mySlides {
+    display:none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.banner-section{
+    background-color: #F2F4F8;
+}
+.banner-content{
+    display: flex;
+    padding-top: 35px;
+    gap: 40px;
+    
+}
+.banner-content .banner-left{
+    width: 75%;
+}
+.banner-content .banner-right{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner-content .banner-right-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #FFE8A1;
+    height: 270px;
+    width: 285px;
+    padding: 15px;
+}
+.banner-content .banner-right-top p{
+    font-size: 13px;
+    font-weight: 200;
+}
+.banner-content .banner-right-top input{
+    width: 220px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.banner-content .banner-right-top a {
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px 37px;
+    border: 2px solid #2C3A96;
+    border-radius: 5px;
+    color: #2C3A96;
+}
+.banner-content .banner-right-bottom img{
+    width: 285px;
+}
+/*Banner Section End  */
+
+
+
+/* Marquee Section Start */
+
+Marquee{
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+/* Marquee Section End */
