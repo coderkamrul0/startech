@@ -266,13 +266,20 @@ Marquee{
 
 .main-footer{
     background-color: #081621;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 
 .main-footer-details{
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    gap: 30px;
+    gap: 20px;
+}
+.main-footer-details h4{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 .main-footer-details .about-us ul{
     display: grid;
@@ -283,6 +290,7 @@ Marquee{
     list-style: none;
     font-size: 14px;
     font-weight: 400;
+    color: gray;
     
 }
 .main-footer-details .about-us ul li a{
@@ -297,14 +305,84 @@ Marquee{
     display: flex;
     align-items: center;
     gap: 20px;
-    border: 1px solid rgba(255,255,255,.1);
+    border: 2px solid rgba(255,255,255,.1);
     border-radius: 50px;
-    padding: 0 10px ;
+    padding: 5px 10px ;
+}
+.main-footer-details .support .call{
+    margin-bottom: 15px;
 }
 .main-footer-details .icon{
     color: white;
     padding-right: 10px;
     border-right: 2px solid rgba(255,255,255,.1);
     font-size: 22px;
+}
+.main-footer-details .support .text h3{
+    color: #EF4A23;
+}
+.main-footer-details .support .text p{
+    font-size: 11px;
+    color: gray;
+}
+
+.main-footer-details .connected ul li{
+    list-style: none;
+    color: gray;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.main-footer-details .connected ul li a{
+    color: #EF4A23;
+    text-decoration: none;
+}
+
+
+
+
+
+.social-section{
+    background-color: #081621;
+}
+.social-details{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 15px 0;
+}
+.social-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-details .apps{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.social-details .apps p{
+    color: gray;
+    font-size: 12px;
+}
+.social-details .social i{
+    margin-left: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+footer{
+    background-color: #081621;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.footer-text{
+    color: gray;
+    font-size: 12px;
 }
 
