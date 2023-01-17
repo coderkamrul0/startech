@@ -146,9 +146,44 @@ Marquee{
     background-color: white;
     padding: 10px;
     border-radius: 25px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     font-size: 14px;
     margin-top: 30px;
 }
 
 /* Marquee Section End */
+
+
+/* Features Section Start */
+.features-content{
+    padding-top: 50px;
+}
+.features-content .features-title{
+    text-align: center;
+    font-weight: 600;
+}
+.features-content .features-desc{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.features-content .features-items{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 14px;
+}
+.features-content .features-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+.features-content .features-item p{
+    font-size: 14px;
+}
+
+/* Features Section End */
